@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Localize Code Challenge - My Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h2>Localize Code Challenge - My Calculator</h2>
+        <section>
+            <div class="calculatorCnt">
+                <div id="display"></div>
+                <div class="buttons">
+                    <div class="button">C</div>
+                    <div class="button" disabled></div>
+                    <div class="button" disabled></div>
+                    <div class="button operation">÷</div> 
+                    <div class="button">7</div>
+                    <div class="button">8</div>
+                    <div class="button">9</div>
+                    <div class="button operation">x</div>
+                    <div class="button">4</div>
+                    <div class="button">5</div>
+                    <div class="button">6</div>
+                    <div class="button operation">-</div>
+                    <div class="button">1</div>
+                    <div class="button">2</div>
+                    <div class="button">3</div>
+                    <div class="button operation">+</div>
+                    <div class="button" disabled></div>
+                    <div class="button">0</div>
+                    <div class="button" disabled></div>
+                    <div id="equals" class="button operation">=</div>
+                 </div>
+            </div>
+            <p id="expressionDisplay">Current expression: <span id="expression"></span></p>
+        </section>
+        <script src="./js/main.js" type="module"></script>
+    </body>
+</html>
